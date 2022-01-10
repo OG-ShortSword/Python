@@ -1,0 +1,10 @@
+from random import seed
+from random import choice
+seed(1)
+sequence = [i for i in range(100, 500)]
+
+print(sequence)
+for _ in range(7):
+    selection = choice(sequence)
+    sorted(selection) //this is what i implemented in attempt to manipulate the selection
+    print(selection)
